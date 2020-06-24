@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/2e44186307.js"></script>
+        <style>
+            .aqua{
+                background-color: aqua;
+            }
+            .navbar-nav{
+                font-size: larger;
+                font-weight: 600;
+            }
+            .navbar-nav.navbar-center {
+                position: absolute;
+                left: 50%;
+                transform: translatex(-50%);
+            }
+            .start{
+                font-size: larger;
+                font-weight: 800;
+                white-space: normal;
+                background-color: aqua;
+                border-radius: 6px;
+            }
+            .btn-fb{
+                background-color: #3B5998;
+                border-radius: 6px;
+            }
+            .btn-g{
+                background-color: #db4a39;
+                border-radius: 6px;
+            }
+            .hr-or{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border: 0;
+                border-top: 1px solid rgb(20, 30, 29);
+                text-align: center;
+                height: 0px;
+                line-height: 0px;
+            }
+            div.hr-or:before {
+                content: '  OR  ';
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="aqua">
+            <nav class="navbar navbar-info">
+                <a class="navbar-brand" href="#">
+                    <img src="https://yt3.ggpht.com/a/AGF-l7-WJChKbnwLJr-hZoyfEumBJmW9YinL9jIANQ=s900-c-k-c0xffffffff-no-rj-mo" alt="logo" style="width:30px;">
+                </a>
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="nav-item text-light">
+                    Sign in
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <form>
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="mail@example.com">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>   
+                </div>
+                <br>
+                <div class="input-group">
+                <input type="password" class="form-control" placeholder="password">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                </div>
+                <br><br>
+                <button type="button" class="btn start text-light btn-md btn-block btn-outline">SIGN IN</button>
+            </form>
+            <br>
+            <a href="#" style="float: left;">Forgot your password?</a>   
+            <a href="#" style="float: right;">Register</a>      
+            <br><br><br>
+            <div class='hr-or'></div>
+            <br><br>
+            <button type="button" class="btn btn-fb btn-block"><i class="fa fa-twitter " aria-hidden="true"></i></button>
+            <br>
+            <button type="button" class="btn btn-g btn-block"><i class="fa fa-linkedin " aria-hidden="true"></i></button>
+            <br><br>
+            <button type="button" class="btn btn-block" style="background-color: #ace600; border-radius: 6px;">< LOGIN With US></i></button>
+            
+        </div>
+    </body>
+</html>
